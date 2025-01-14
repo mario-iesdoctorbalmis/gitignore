@@ -1,0 +1,19 @@
+@use 'colors';
+$primary: green;
+$secondary: #132a9b;
+$font-family-sans-serif: 'Roboto', sans-serif; // Default font family
+$body-bg: #fcd0fc;    // Background color
+$enable-rounded: false;   // Enables rounded corners for components
+$enable-shadows: false;  // Disables box shadows
+$enable-gradients: false; // Disables gradients for buttons and components
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
+body {
+  color: colors.$primary-color;
+  
+    .header {
+        background-color: colors.$secondary;
+    }
+}
